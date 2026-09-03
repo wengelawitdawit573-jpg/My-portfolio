@@ -1,5 +1,3 @@
-# My-portfolio
-My computer science portfolio
 <!DOCTYPE html>
 <html>
 <head>
