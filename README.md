@@ -1,2 +1,34 @@
 # My-portfolio
 My computer science portfolio
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Success Platform</title>
+</head>
+
+<body>
+
+    <h1>📚 Student Success Platform</h1>
+
+    <p>Free learning resources for Ethiopian High school students in Grades 9–12.</p>
+
+    <h2>Choose Your Grade</h2>
+
+<a href="Grade9.html">
+    <button>Grade 9</button>
+</a>
+    <button>Grade 10</button>
+    <button>Grade 11</button>
+    <button>Grade 12</button>
+
+    <h2>What We Offer</h2>
+
+    <ul>
+        <li>📚 Textbooks and learning resources</li>
+        <li>📝 Practice questions</li>
+        <li>📅 Study planning</li>
+        <li>📊 Progress tracking</li>
+    </ul>
+
+</body>
+</html>
