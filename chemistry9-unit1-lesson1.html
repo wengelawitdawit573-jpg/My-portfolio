@@ -26,6 +26,46 @@
                 its properties, composition, structure, and the changes
                 that matter undergoes.
             </p>
+            <h3>🧠 Quick Quiz</h3>
+
+<p><strong>1. What does chemistry mainly study?</strong></p>
+
+<label>
+    <input type="radio" name="q1" value="a">
+    Only plants
+</label>
+<br>
+
+<label>
+    <input type="radio" name="q1" value="b">
+    Matter and the changes it undergoes
+</label>
+<br>
+
+<label>
+    <input type="radio" name="q1" value="c">
+    Only the Earth
+</label>
+<br><br>
+
+<button onclick="checkQuiz()">Check Answer</button>
+
+<p id="result"></p>
+
+<script>
+function checkQuiz() {
+    const answer = document.querySelector('input[name="q1"]:checked');
+    const result = document.getElementById("result");
+
+    if (!answer) {
+        result.textContent = "Please choose an answer.";
+    } else if (answer.value === "b") {
+        result.textContent = "✅ Correct! Great job!";
+    } else {
+        result.textContent = "❌ Not quite. Try again!";
+    }
+}
+</script>
 
             <h3>🌍 Why is Chemistry Important?</h3>
 
